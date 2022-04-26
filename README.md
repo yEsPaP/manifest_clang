@@ -9,7 +9,7 @@ sync:
 
 build:
 
-`python toolchain/llvm_android/build.py --no-build=linux`
+`python toolchain/llvm_android/build.py`
 
 fix possible missing header error:
 
