@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+  <remote fetch="https://android.googlesource.com" name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="llvm-r316199" sync-j="4" />
   <!-- Core LLVM toolchain components -->
   <project name="platform/bionic" path="bionic" revision="832f4907f0bd244aef90955d2b00aac53f1eed6e" upstream="llvm-r316199" />
