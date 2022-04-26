@@ -13,4 +13,5 @@ build:
 
 fix possible missing header error:
 
-`ln -s /usr/include/locale.h /usr/include/xlocale.h`
+`ln -s /usr/include/locale.h /usr/include/xlocale.h`,
+https://reviews.llvm.org/rG383fe5c8668f63ef21c646b43f48da9fa41aa100
